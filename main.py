@@ -36,7 +36,7 @@ def search():
 
 
 while True:
-    now = time.strftime("%m月%d日%H:%M:%S", time.localtime())
+    #now = time.strftime("%m月%d日%H:%M:%S", time.localtime())
+    #print('记录时间:'+now)#这两个可能会很吵可以注释掉
     search()
-    print('记录时间:'+now)
     time.sleep(int(sec))
